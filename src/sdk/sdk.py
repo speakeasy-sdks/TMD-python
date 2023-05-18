@@ -20,8 +20,8 @@ class SDK:
     _security_client: requests_http.Session
     _server_url: str = SERVERS[0]
     _language: str = "python"
-    _sdk_version: str = "1.4.0"
-    _gen_version: str = "2.29.0"
+    _sdk_version: str = "1.5.0"
+    _gen_version: str = "2.30.0"
 
     def __init__(self,
                  server_url: str = None,
@@ -63,11 +63,12 @@ class SDK:
         base_url = self._server_url
         
         url = base_url.removesuffix('/') + '/users'
-        
+        headers = {}
+        headers['user-agent'] = f'speakeasy-sdk/{self._language} {self._sdk_version} {self._gen_version}'
         
         client = self._client
         
-        http_res = client.request('GET', url)
+        http_res = client.request('GET', url, headers=headers)
         content_type = http_res.headers.get('Content-Type')
 
         res = operations.GetUsersResponse(status_code=http_res.status_code, content_type=content_type, raw_response=http_res)

@@ -1,3 +1,4 @@
+src/sdk/sdkconfiguration.py
 src/sdk/sdk.py
 .gitignore
 pylintrc

@@ -7,7 +7,7 @@ from sdk.models import operations
 from typing import Optional
 
 class SDK:
-    r"""Optional multiline or single-line description in [CommonMark](http://commonmark.org/help/) or HTML."""
+    r"""Sample API: Optional multiline or single-line description in [CommonMark](http://commonmark.org/help/) or HTML."""
 
     sdk_configuration: SDKConfiguration
 

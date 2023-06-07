@@ -2,7 +2,7 @@
 
 ## Overview
 
-Optional multiline or single-line description in [CommonMark](http://commonmark.org/help/) or HTML.
+Sample API: Optional multiline or single-line description in [CommonMark](http://commonmark.org/help/) or HTML.
 
 ### Available Operations
 

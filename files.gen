@@ -10,5 +10,6 @@ src/sdk/utils/retries.py
 src/sdk/utils/utils.py
 src/sdk/models/operations/get_users.py
 src/sdk/models/operations/__init__.py
-docs/sdk/README.md
+docs/sdks/sdk/README.md
 USAGE.md
+docs/models/operations/getusersresponse.md

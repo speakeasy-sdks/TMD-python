@@ -26,3 +26,9 @@ res = s.sdk.get_users()
 if res.get_users_200_application_json_strings is not None:
     # handle response
 ```
+
+
+### Response
+
+**[operations.GetUsersResponse](../../models/operations/getusersresponse.md)**
+

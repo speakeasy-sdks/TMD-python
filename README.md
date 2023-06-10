@@ -27,9 +27,9 @@ if res.get_users_200_application_json_strings is not None:
 <!-- Start SDK Available Operations -->
 ## Available Resources and Operations
 
-### [SDK](docs/sdk/README.md)
+### [SDK](docs/sdks/sdk/README.md)
 
-* [get_users](docs/sdk/README.md#get_users) - Returns a list of users.
+* [get_users](docs/sdks/sdk/README.md#get_users) - Returns a list of users.
 <!-- End SDK Available Operations -->
 
 ### Maturity
